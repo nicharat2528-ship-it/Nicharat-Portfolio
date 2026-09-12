@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicharat Seelalai | Digital Business Technology Portfolio</title>
+    <meta name="description" content="แฟ้มสะสมผลงาน (Portfolio) ของ ณิชารัตน์ สีลาลัย นักศึกษาเทคโนโลยีธุรกิจดิจิทัล">
+    
+    <!-- Google Fonts: Poppins (EN) & Prompt (TH) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="90" tabindex="0">
+
+    <!-- Floating Background Decorative Blobs -->
+    <div class="bg-blobs-container" aria-hidden="true">
+        <div class="blob blob-purple"></div>
+        <div class="blob blob-pink"></div>
+        <div class="blob blob-blue"></div>
+        <div class="blob blob-yellow"></div>
+    </div>
+
+    <!-- ==============================================
+         SECTION 1: NAVBAR (Sticky Top & Responsive)
+         ============================================== -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top modern-navbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                <span class="brand-badge">
+                    <i class="bi bi-stars"></i>
+                </span>
+                <span class="brand-text">Nicharat<span class="brand-accent">.Portfolio</span></span>
+            </a>
+            
+            <!-- Mobile Hamburger Button -->
+            <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="สลับเมนู">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-sm btn-nav-contact" href="#contact">
+                            <i class="bi bi-chat-heart-fill me-1"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==============================================
+         SECTION 2: HERO (Large, Colorful & Modern)
+         ============================================== -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container position-relative">
+            <div class="row align-items-center gy-5">
+                <!-- Left Hero Text -->
+                <div class="col-lg-7 text-center text-lg-start">
+                    <div class="hero-greeting-badge mb-3 animate-fade-down">
+                        <span class="greeting-wave">สวัสดีค่ะ 👋</span>
+                        <span class="welcome-pill">ยินดีต้อนรับสู่ Portfolio ของฉัน</span>
+                    </div>
+                    
+                    <h1 class="hero-title animate-fade-up">
+                        ฉันชื่อ <span class="gradient-text">ณิชารัตน์ สีลาลัย</span>
+                    </h1>
+                    
+                    <div class="hero-role-wrapper animate-fade-up delay-1">
+                        <span class="role-badge">
+                            <i class="bi bi-laptop me-2"></i>Digital Business Technology Student
+                        </span>
+                    </div>
+
+                    <p class="hero-intro animate-fade-up delay-2">
+                        “เส้นทางการเรียนรู้ของฉัน เริ่มต้นจากสายอาชีวศึกษา
+                        สู่การพัฒนาทักษะด้านเทคโนโลยีธุรกิจดิจิทัล
+                        และกำลังก้าวต่อไปในระดับปริญญาตรี” 
+                        พร้อมเรียนรู้สิ่งใหม่ ๆ และสร้างสรรค์ผลงานอย่างมืออาชีพ
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-cta-group d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start animate-fade-up delay-3">
+                        <a href="#about" class="btn btn-gradient-primary btn-lg">
+                            <i class="bi bi-person-circle me-2"></i>ดูประวัติของฉัน
+                        </a>
+                        <a href="#portfolio" class="btn btn-gradient-secondary btn-lg">
+                            <i class="bi bi-collection-play me-2"></i>ดูผลงาน
+                        </a>
+                    </div>
+
+                    <!-- Quick Highlights -->
+                    <div class="hero-stats d-flex flex-wrap gap-4 mt-5 justify-content-center justify-content-lg-start animate-fade-up delay-4">
+                        <div class="stat-card">
+                            <span class="stat-number">21</span>
+                            <span class="stat-label">ปี (อายุ)</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">ที่ฝึกงานชั้นนำ</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">พลังความมุ่งมั่น</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Decorative Graphic -->
+                <div class="col-lg-5 text-center position-relative">
+                    <div class="hero-visual-wrapper animate-float">
+                        <div class="avatar-glow-ring"></div>
+                        <div class="hero-avatar-card">
+                            <div class="avatar-placeholder-inner">
+                                <div class="avatar-icon-bubble">
+                                    <i class="bi bi-person-hearts"></i>
+                                </div>
+                                <h4 class="mt-3 mb-1 fw-bold text-dark">ณิชารัตน์ สีลาลัย</h4>
+                                <p class="text-muted small mb-3">Digital Business Tech Student</p>
+                                <div class="status-chip">
+                                    <span class="status-dot"></span> Ready to Learn & Grow
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badges -->
+                        <div class="floating-chip chip-1">
+                            <i class="bi bi-code-slash text-purple"></i> Web Developer
+                        </div>
+                        <div class="floating-chip chip-2">
+                            <i class="bi bi-brush-fill text-pink"></i> UI/UX Design
+                        </div>
+                        <div class="floating-chip chip-3">
+                            <i class="bi bi-graph-up-arrow text-primary"></i> Digital Business
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 3: ABOUT ME (Profile & Details)
+         ============================================== -->
+    <section id="about" class="section-padding about-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle">ทำความรู้จักฉัน</span>
+                <h2 class="section-title">About Me 👩💻</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="row align-items-center gy-4">
+                <!-- Left: Profile Photo Placeholder -->
+                <div class="col-lg-5 text-center">
+                   <div class="profile-frame-card">
+    <div class="profile-photo-real">
+        <img src="profile.jpg"
+             alt="รูปโปรไฟล์ ณิชารัตน์ สีลาลัย"
+             class="my-profile-image">
+    </div>
+</div>
+                </div>
+
+                <!-- Right: Information & Intro -->
+                <div class="col-lg-7">
+                    <div class="about-content-card">
+                        <h3 class="about-greeting">
+                            ยินดีที่ได้รู้จักค่ะ! <span class="sparkle">✨</span>
+                        </h3>
+                        <p class="about-lead">
+                            ดิฉันชื่อ <strong>นางสาวณิชารัตน์ สีลาลัย</strong> นักศึกษาสาขา <strong>เทคโนโลยีธุรกิจดิจิทัล</strong> ผู้มีความสนใจและหลงใหลในโลกของเทคโนโลยีสารสนเทศ การออกแบบ UI/UX และการประยุกต์ใช้เครื่องมือดิจิทัลเพื่อขับเคลื่อนธุรกิจในยุคปัจจุบัน
+                        </p>
+                        <p class="about-body">
+                            การเดินทางทางการศึกษาของดิฉันหล่อหลอมมาตั้งแต่ระดับอาชีวศึกษา (ปวช. และ ปวส.) ซึ่งทำให้ได้สัมผัสทั้งทฤษฎีและการลงมือปฏิบัติจริง มีโอกาสฝึกงานในองค์กรทั้งภาครัฐและภาคเอกชน ทำให้ดิฉันเป็นคนมีความรับผิดชอบ ปรับตัวเข้ากับวัฒนธรรมองค์กรได้รวดเร็ว และพร้อมพัฒนาตนเองอยู่เสมอค่ะ
+                        </p>
+
+                        <!-- Personal Info Grid -->
+                        <div class="personal-info-grid mt-4">
+                            <div class="info-item">
+                                <span class="info-icon"><i class="bi bi-person-badge"></i></span>
+                                <div>
+                                    <span class="info-label">ชื่อ-นามสกุล</span>
+                                    <span class="info-value">ณิชารัตน์ สีลาลัย</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon"><i class="bi bi-calendar2-heart"></i></span>
+                                <div>
+                                    <span class="info-label">อายุ</span>
+                                    <span class="info-value">21 ปี</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon"><i class="bi bi-mortarboard"></i></span>
+                                <div>
+                                    <span class="info-label">สายการศึกษา</span>
+                                    <span class="info-value">เทคโนโลยีธุรกิจดิจิทัล</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-icon"><i class="bi bi-geo-alt"></i></span>
+                                <div>
+                                    <span class="info-label">สถานะปัจจุบัน</span>
+                                    <span class="info-value">กำลังศึกษาระดับปริญญาตรี</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons in About -->
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a href="#education" class="btn btn-outline-gradient">
+                                <i class="bi bi-arrow-right-circle me-1"></i> ดูเส้นทางการศึกษา
+                            </a>
+                            <a href="#contact" class="btn btn-gradient-primary">
+                                <i class="bi bi-envelope-heart me-1"></i> ติดต่อร่วมงาน
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION: MY HOBBIES (งานอดิเรกของฉัน 🎀)
+         ============================================== -->
+    <section id="hobbies" class="section-padding hobbies-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle">งานอดิเรกของฉัน</span>
+                <h2 class="section-title">My Hobbies 🎀</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <!-- Hobbies Grid (Desktop = 3 Cards / Tablet = 2 Cards / Mobile = 1 Card) -->
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1: ดูหนัง -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="hobby-card card-cinema h-100 reveal-on-scroll delay-hobby-1">
+                        <div class="hobby-card-inner">
+                            <div class="hobby-header d-flex align-items-center justify-content-between mb-3">
+                                <div class="hobby-icon-circle icon-cinema">
+                                    <i class="bi bi-film"></i>
+                                </div>
+                                <span class="hobby-category-badge badge-cinema">
+                                    🎬 Entertainment
+                                </span>
+                            </div>
+
+                            <h3 class="hobby-title">ดูหนัง</h3>
+                            
+                            <p class="hobby-description">
+                                ชอบดูหนังในเวลาว่าง เพื่อความสนุก ผ่อนคลาย และเปิดมุมมองใหม่ ๆ จากเรื่องราวต่าง ๆ
+                            </p>
+
+                            <div class="hobby-tags-wrapper">
+                                <span class="hobby-pill"><i class="bi bi-sparkles me-1"></i> ผ่อนคลาย</span>
+                                <span class="hobby-pill"><i class="bi bi-eye me-1"></i> เปิดมุมมอง</span>
+                                <span class="hobby-pill"><i class="bi bi-lightbulb me-1"></i> ได้แรงบันดาลใจ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: ฟังเพลง -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="hobby-card card-music h-100 reveal-on-scroll delay-hobby-2">
+                        <div class="hobby-card-inner">
+                            <div class="hobby-header d-flex align-items-center justify-content-between mb-3">
+                                <div class="hobby-icon-circle icon-music">
+                                    <i class="bi bi-headphones"></i>
+                                </div>
+                                <span class="hobby-category-badge badge-music">
+                                    🎧 Lifestyle
+                                </span>
+                            </div>
+
+                            <h3 class="hobby-title">ฟังเพลง</h3>
+                            
+                            <p class="hobby-description">
+                                ชอบฟังเพลงในช่วงเวลาว่าง ช่วยให้ผ่อนคลาย และสร้างความเพลิดเพลินระหว่างทำกิจกรรมต่าง ๆ
+                            </p>
+
+                            <div class="hobby-tags-wrapper">
+                                <span class="hobby-pill"><i class="bi bi-music-note-beamed me-1"></i> เพลิดเพลิน</span>
+                                <span class="hobby-pill"><i class="bi bi-soundwave me-1"></i> สร้างสมาธิ</span>
+                                <span class="hobby-pill"><i class="bi bi-heart me-1"></i> เพิ่มพลังบวก</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: เล่นเกม -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="hobby-card card-gaming h-100 reveal-on-scroll delay-hobby-3">
+                        <div class="hobby-card-inner">
+                            <div class="hobby-header d-flex align-items-center justify-content-between mb-3">
+                                <div class="hobby-icon-circle icon-gaming">
+                                    <i class="bi bi-controller"></i>
+                                </div>
+                                <span class="hobby-category-badge badge-gaming">
+                                    🎮 Gaming & Skill
+                                </span>
+                            </div>
+
+                            <h3 class="hobby-title">เล่นเกม</h3>
+                            
+                            <p class="hobby-description">
+                                ชอบเล่นเกมเพื่อความสนุกและผ่อนคลาย อีกทั้งยังช่วยฝึกการคิดวิเคราะห์และการแก้ปัญหา
+                            </p>
+
+                            <div class="hobby-tags-wrapper">
+                                <span class="hobby-pill"><i class="bi bi-cpu me-1"></i> คิดวิเคราะห์</span>
+                                <span class="hobby-pill"><i class="bi bi-check2-circle me-1"></i> แก้ปัญหา</span>
+                                <span class="hobby-pill"><i class="bi bi-joystick me-1"></i> สนุกท้าทาย</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 4: EDUCATION (Colorful Timeline)
+         ============================================== -->
+    <section id="education" class="section-padding education-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle">ก้าวสำคัญทางการศึกษา</span>
+                <h2 class="section-title">My Education 🎓</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <!-- Timeline Component -->
+            <div class="education-timeline position-relative">
+                <div class="timeline-line"></div>
+
+                <!-- Step 1: ปวช. -->
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot dot-purple">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge-year bg-purple">ปีการศึกษา 2563 – 2566</div>
+                        <h4 class="timeline-level">ระดับ ปวช.</h4>
+                        <h5 class="timeline-institute">
+                            <i class="bi bi-building me-1 text-purple"></i> วิทยาลัยอาชีวศึกษานครศรีธรรมราช
+                        </h5>
+                        <p class="timeline-description">
+                            จุดเริ่มต้นในการศึกษาด้านวิชาชีพ ปูพื้นฐานการใช้งานคอมพิวเตอร์ โปรแกรมสำนักงาน เทคโนโลยีสารสนเทศ และการสร้างวินัยในการเรียนรู้สายอาชีพ
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2: ปวส. -->
+                <div class="timeline-item right-item">
+                    <div class="timeline-dot dot-pink">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge-year bg-pink">ปีการศึกษา 2567 – 2568</div>
+                        <h4 class="timeline-level">ระดับ ปวส.</h4>
+                        <h5 class="timeline-institute">
+                            <i class="bi bi-building me-1 text-pink"></i> วิทยาลัยอาชีวศึกษานครศรีธรรมราช
+                        </h5>
+                        <p class="timeline-description">
+                            ต่อยอดทักษะวิชาชีพชั้นสูง มุ่งเน้นการพัฒนาระบบ การบริหารจัดการข้อมูล การใช้งานเครื่องมือดิจิทัลในเชิงธุรกิจ และเตรียมความพร้อมสู่การทำงานจริง
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3: ปริญญาตรี (ปัจจุบัน) -->
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot dot-blue current-pulse">
+                        <i class="bi bi-stars"></i>
+                    </div>
+                    <div class="timeline-card border-active">
+                        <div class="timeline-badge-year bg-blue">ปัจจุบัน (กำลังศึกษา)</div>
+                        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+                            <h4 class="timeline-level mb-0">ระดับปริญญาตรี</h4>
+                            <span class="badge bg-success-subtle text-success px-3 py-1 rounded-pill">
+                                <i class="bi bi-record-circle-fill me-1"></i> Current Student
+                            </span>
+                        </div>
+                        <h5 class="timeline-institute">
+                            <i class="bi bi-mortarboard me-1 text-primary"></i> สาขาเทคโนโลยีธุรกิจดิจิทัล
+                        </h5>
+                        <p class="timeline-description">
+                            ยกระดับองค์ความรู้สู่ระดับปริญญาตรี บูรณาการศาสตร์ด้านไอที การพัฒนาซอฟต์แวร์ เว็บแอปพลิเคชัน การตลาดดิจิทัล และการวิเคราะห์ธุรกิจดิจิทัลยุคใหม่
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 5: EXPERIENCE (Internship Cards)
+         ============================================== -->
+    <section id="experience" class="section-padding experience-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle">ประสบการณ์การทำงานจริง</span>
+                <h2 class="section-title">Internship Experience 💼</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1: ศาลจังหวัดนครศรีธรรมราช -->
+                <div class="col-lg-6">
+                    <div class="experience-card card-gov h-100">
+                        <div class="experience-header d-flex align-items-center justify-content-between">
+                            <span class="internship-tag tag-purple">
+                                <i class="bi bi-award-fill me-1"></i> ฝึกงานระดับ ปวช.2
+                            </span>
+                            <span class="experience-icon-circle icon-court">
+                                <i class="bi bi-bank2"></i>
+                            </span>
+                        </div>
+
+                        <h3 class="experience-place">ศาลจังหวัดนครศรีธรรมราช</h3>
+                        <p class="experience-location text-muted">
+                            <i class="bi bi-geo-alt-fill text-danger me-1"></i> จังหวัดนครศรีธรรมราช
+                        </p>
+
+                        <div class="experience-body">
+                            <p class="experience-summary">
+                                ได้รับโอกาสฝึกประสบการณ์การทำงานในหน่วยงานภาครัฐด้านกระบวนการยุติธรรม เรียนรู้ระบบงานเอกสารและการประสานงานที่ต้องการความถูกต้อง แม่นยำ และเป็นระเบียบสูง
+                            </p>
+                            
+                            <h6 class="skills-gained-title"><i class="bi bi-check2-circle me-1"></i> ประสบการณ์และทักษะที่ได้รับ:</h6>
+                            <ul class="experience-points">
+                                <li><strong>การเรียนรู้ประสบการณ์การทำงานจริง:</strong> สัมผัสวัฒนธรรมการทำงานในระบบราชการ และการปฏิบัติงานตามขั้นตอนอย่างรอบคอบ</li>
+                                <li><strong>การทำงานร่วมกับผู้อื่น:</strong> ประสานงานกับบุคลากรหลากหลายแผนก ฝึกการสื่อสารที่สุภาพ ชัดเจน และมีประสิทธิภาพ</li>
+                                <li><strong>ความรับผิดชอบและวินัย:</strong> ตรงต่อเวลา รักษาความลับของข้อมูลเอกสารทางราชการ และแก้ปัญหาด้วยความใจเย็น</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-footer">
+                            <span class="tech-badge">Government Workflow</span>
+                            <span class="tech-badge">Document Management</span>
+                            <span class="tech-badge">Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: บิ๊กซี ซูเปอร์เซ็นเตอร์ สาขาราชดำริ -->
+                <div class="col-lg-6">
+                    <div class="experience-card card-corp h-100">
+                        <div class="experience-header d-flex align-items-center justify-content-between">
+                            <span class="internship-tag tag-blue">
+                                <i class="bi bi-bag-check-fill me-1"></i> ฝึกงานระดับ ปวส.2
+                            </span>
+                            <span class="experience-icon-circle icon-retail">
+                                <i class="bi bi-shop-window"></i>
+                            </span>
+                        </div>
+
+                        <h3 class="experience-place">บิ๊กซี ซูเปอร์เซ็นเตอร์ สาขาราชดำริ</h3>
+                        <p class="experience-location text-muted">
+                            <i class="bi bi-geo-alt-fill text-danger me-1"></i> กรุงเทพมหานคร
+                        </p>
+
+                        <div class="experience-body">
+                            <p class="experience-summary">
+                                ฝึกประสบการณ์ในศูนย์การค้าและห้างสรรพสินค้าชั้นนำใจกลางกรุงเทพมหานคร เรียนรู้ระบบการค้าปลีกขนาดใหญ่ การบริหารจัดการสินค้า และการบริการลูกค้าหลากหลายสัญชาติ
+                            </p>
+                            
+                            <h6 class="skills-gained-title"><i class="bi bi-check2-circle me-1"></i> ประสบการณ์และทักษะที่ได้รับ:</h6>
+                            <ul class="experience-points">
+                                <li><strong>การเรียนรู้ระบบการทำงานในองค์กร:</strong> เข้าใจ Workflow การบริหารจัดการธุรกิจค้าปลีกขนาดใหญ่ และระบบเทคโนโลยีสนับสนุนงานขาย</li>
+                                <li><strong>การให้บริการลูกค้า (Customer Service):</strong> ฝึกทักษะ Service Mind การรับมือกับสถานการณ์เฉพาะหน้า และการดูแลลูกค้าอย่างมืออาชีพ</li>
+                                <li><strong>การทำงานร่วมกับทีม:</strong> วางแผนประสานงานกับเพื่อนร่วมงานภายใต้บรรยากาศที่คล่องตัว รวดเร็ว และกระตือรือร้น</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-footer">
+                            <span class="tech-badge">Retail Business</span>
+                            <span class="tech-badge">Customer Service</span>
+                            <span class="tech-badge">Fast-Paced Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 6: SKILLS (Interactive Progress Bars)
+         ============================================== -->
+    <section id="skills" class="section-padding skills-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle">ความสามารถและความเชี่ยวชาญ</span>
+                <h2 class="section-title">My Skills 💻</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Coding & Development Skills -->
+                <div class="col-lg-6">
+                    <div class="skill-category-card h-100">
+                        <div class="category-header d-flex align-items-center gap-2 mb-4">
+                            <div class="cat-icon cat-icon-code">
+                                <i class="bi bi-code-square"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-0 fw-bold">Web & Programming</h4>
+                                <small class="text-muted">ทักษะการเขียนโปรแกรมและพัฒนาเว็บไซต์</small>
+                            </div>
+                        </div>
+
+                        <!-- HTML Skill -->
+                        <div class="skill-bar-wrapper mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-filetype-html text-danger me-2"></i>HTML5</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-orange" role="progressbar" data-width="90" style="width: 0%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- CSS Skill -->
+                        <div class="skill-bar-wrapper mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-filetype-css text-primary me-2"></i>CSS3</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-blue" role="progressbar" data-width="85" style="width: 0%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- Bootstrap Skill -->
+                        <div class="skill-bar-wrapper mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-bootstrap-fill text-purple me-2"></i>Bootstrap 5</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-purple" role="progressbar" data-width="85" style="width: 0%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- JavaScript Skill -->
+                        <div class="skill-bar-wrapper mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-filetype-js text-warning me-2"></i>JavaScript</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-yellow" role="progressbar" data-width="75" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- PHP Skill -->
+                        <div class="skill-bar-wrapper mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-filetype-php text-info me-2"></i>PHP</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-indigo" role="progressbar" data-width="70" style="width: 0%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- MySQL Skill -->
+                        <div class="skill-bar-wrapper">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-database-fill text-secondary me-2"></i>MySQL</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-teal" role="progressbar" data-width="75" style="width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design & Digital Business Skills -->
+                <div class="col-lg-6">
+                    <div class="skill-category-card h-100">
+                        <div class="category-header d-flex align-items-center gap-2 mb-4">
+                            <div class="cat-icon cat-icon-design">
+                                <i class="bi bi-palette-fill"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-0 fw-bold">Design & Digital Business</h4>
+                                <small class="text-muted">การออกแบบและเทคโนโลยีธุรกิจดิจิทัล</small>
+                            </div>
+                        </div>
+
+                        <!-- UI/UX Design Skill -->
+                        <div class="skill-bar-wrapper mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-layout-wtf text-pink me-2"></i>UI/UX Design</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-pink" role="progressbar" data-width="85" style="width: 0%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- Figma Skill -->
+                        <div class="skill-bar-wrapper mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-vector-pen text-danger me-2"></i>Figma</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-purple" role="progressbar" data-width="80" style="width: 0%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- Digital Marketing Skill -->
+                        <div class="skill-bar-wrapper mb-4">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="skill-name"><i class="bi bi-megaphone-fill text-warning me-2"></i>Digital Marketing</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="progress custom-progress">
+                                <div class="progress-bar progress-gradient-orange" role="progressbar" data-width="80" style="width: 0%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Soft & Tool Skills Badges -->
+                        <div class="other-skills-block p-3 rounded-4 bg-light-purple">
+                            <h6 class="fw-bold mb-3 text-purple">
+                                <i class="bi bi-stars me-1"></i> เครื่องมือและทักษะเสริม (Other Tools)
+                            </h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge skill-pill"><i class="bi bi-brush me-1"></i> Canva</span>
+                                <span class="badge skill-pill"><i class="bi bi-git me-1"></i> Git / GitHub</span>
+                                <span class="badge skill-pill"><i class="bi bi-file-earmark-excel me-1"></i> MS Office / Excel</span>
+                                <span class="badge skill-pill"><i class="bi bi-people-fill me-1"></i> Team Collaboration</span>
+                                <span class="badge skill-pill"><i class="bi bi-lightbulb-fill me-1"></i> Creative Problem Solving</span>
+                                <span class="badge skill-pill"><i class="bi bi-chat-dots-fill me-1"></i> Communication</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 7: PORTFOLIO (Grid: 3 Desktop / 2 Tablet / 1 Mobile)
+         ============================================== -->
+    <section id="portfolio" class="section-padding portfolio-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle">แฟ้มสะสมผลงานและโปรเจกต์</span>
+                <h2 class="section-title">My Portfolio 🖼️</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <!-- Portfolio Grid (col-lg-4, col-md-6, col-12) -->
+            <div class="row g-4">
+                
+                <!-- Project 1: Website Project -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-thumb-wrapper">
+                            <!-- Vector Decorative Illustration -->
+                            <div class="portfolio-thumb thumb-grad-1">
+                                <div class="thumb-icon-center">
+                                    <i class="bi bi-globe-americas"></i>
+                                </div>
+                                <span class="thumb-badge">Website Project</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content d-flex flex-column">
+                            <span class="portfolio-tag text-purple">Web Development</span>
+                            <h4 class="portfolio-title">โปรเจกต์เว็บไซต์ E-Commerce</h4>
+                            <p class="portfolio-desc flex-grow-1">
+                                ออกแบบและพัฒนาเว็บไซต์จำหน่ายสินค้าออนไลน์ Responsive พร้อมระบบจัดการตะกร้าสินค้าและการนำเสนอสินค้าที่น่าสนใจ
+                            </p>
+                            <div class="portfolio-tech-tags mb-3">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bootstrap 5</span>
+                            </div>
+                            <button class="btn btn-outline-portfolio w-100" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                                <i class="bi bi-eye-fill me-1"></i> View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: UI/UX Design -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-thumb-wrapper">
+                            <div class="portfolio-thumb thumb-grad-2">
+                                <div class="thumb-icon-center">
+                                    <i class="bi bi-phone-flip"></i>
+                                </div>
+                                <span class="thumb-badge">UI/UX Design</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content d-flex flex-column">
+                            <span class="portfolio-tag text-pink">Product Design</span>
+                            <h4 class="portfolio-title">ออกแบบหน้าจอเว็บไซต์ & App</h4>
+                            <p class="portfolio-desc flex-grow-1">
+                                ดีไซน์ Wireframe & Prototype โมบายแอปพลิเคชันเพื่อการบริการ ด้วยแนวคิด User-Centered Design สดใส ใช้งานง่าย
+                            </p>
+                            <div class="portfolio-tech-tags mb-3">
+                                <span>Figma</span>
+                                <span>UI/UX</span>
+                                <span>Design System</span>
+                            </div>
+                            <button class="btn btn-outline-portfolio w-100" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                                <i class="bi bi-eye-fill me-1"></i> View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Digital Business Project -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-thumb-wrapper">
+                            <div class="portfolio-thumb thumb-grad-3">
+                                <div class="thumb-icon-center">
+                                    <i class="bi bi-bar-chart-steps"></i>
+                                </div>
+                                <span class="thumb-badge">Business Tech</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content d-flex flex-column">
+                            <span class="portfolio-tag text-primary">Digital Innovation</span>
+                            <h4 class="portfolio-title">โครงงานธุรกิจดิจิทัลเพื่อชุมชน</h4>
+                            <p class="portfolio-desc flex-grow-1">
+                                การประยุกต์ใช้เทคโนโลยีดิจิทัลยกระดับสินค้าและบริการชุมชน การวางแผนการตลาดออนไลน์ และช่องทางการจัดจำหน่าย
+                            </p>
+                            <div class="portfolio-tech-tags mb-3">
+                                <span>Digital Marketing</span>
+                                <span>Business Model</span>
+                            </div>
+                            <button class="btn btn-outline-portfolio w-100" data-bs-toggle="modal" data-bs-target="#projectModal3">
+                                <i class="bi bi-eye-fill me-1"></i> View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Database Management -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-thumb-wrapper">
+                            <div class="portfolio-thumb thumb-grad-4">
+                                <div class="thumb-icon-center">
+                                    <i class="bi bi-server"></i>
+                                </div>
+                                <span class="thumb-badge">Database System</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content d-flex flex-column">
+                            <span class="portfolio-tag text-purple">Back-end & DB</span>
+                            <h4 class="portfolio-title">ระบบจัดการคลังข้อมูลสินค้า</h4>
+                            <p class="portfolio-desc flex-grow-1">
+                                ออกแบบฐานข้อมูลเชิงสัมพันธ์ (Relational Database) จัดการสต็อกสินค้า การบันทึกและออกรายงานสรุปยอดแบบเรียลไทม์
+                            </p>
+                            <div class="portfolio-tech-tags mb-3">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>CRUD</span>
+                            </div>
+                            <button class="btn btn-outline-portfolio w-100" data-bs-toggle="modal" data-bs-target="#projectModal4">
+                                <i class="bi bi-eye-fill me-1"></i> View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Creative Media Campaign -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-thumb-wrapper">
+                            <div class="portfolio-thumb thumb-grad-5">
+                                <div class="thumb-icon-center">
+                                    <i class="bi bi-badge-ad"></i>
+                                </div>
+                                <span class="thumb-badge">Marketing Media</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content d-flex flex-column">
+                            <span class="portfolio-tag text-warning">Creative Media</span>
+                            <h4 class="portfolio-title">แคมเปญสื่อโฆษณาดิจิทัล</h4>
+                            <p class="portfolio-desc flex-grow-1">
+                                ผลิตสื่อประชาสัมพันธ์ กราฟิกดีไซน์ และคอนเทนต์เพื่อเพิ่มการเข้าถึงกลุ่มเป้าหมายบนช่องทาง Social Media ยุคใหม่
+                            </p>
+                            <div class="portfolio-tech-tags mb-3">
+                                <span>Canva</span>
+                                <span>Social Media</span>
+                                <span>Content Design</span>
+                            </div>
+                            <button class="btn btn-outline-portfolio w-100" data-bs-toggle="modal" data-bs-target="#projectModal5">
+                                <i class="bi bi-eye-fill me-1"></i> View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Personal Portfolio Website -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="portfolio-card h-100">
+                        <div class="portfolio-thumb-wrapper">
+                            <div class="portfolio-thumb thumb-grad-6">
+                                <div class="thumb-icon-center">
+                                    <i class="bi bi-laptop-fill"></i>
+                                </div>
+                                <span class="thumb-badge">Interactive Web</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-content d-flex flex-column">
+                            <span class="portfolio-tag text-pink">Frontend Web</span>
+                            <h4 class="portfolio-title">Portfolio ณิชารัตน์ สีลาลัย</h4>
+                            <p class="portfolio-desc flex-grow-1">
+                                เว็บไซต์แฟ้มสะสมผลงานแบบ Single Page Responsive ดีไซน์สดใส น่ารัก ด้วย Bootstrap 5, CSS3 Grid/Flexbox และ JavaScript
+                            </p>
+                            <div class="portfolio-tech-tags mb-3">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <button class="btn btn-outline-portfolio w-100" data-bs-toggle="modal" data-bs-target="#projectModal6">
+                                <i class="bi bi-eye-fill me-1"></i> View Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         PORTFOLIO DETAIL MODALS (Preview Popups)
+         ============================================== -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow">
+                <div class="modal-header bg-soft-purple border-0">
+                    <h5 class="modal-title fw-bold text-purple" id="projectModal1Label">
+                        <i class="bi bi-globe me-2"></i>โปรเจกต์เว็บไซต์ E-Commerce
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="modal-preview-box mb-3 thumb-grad-1 text-white p-4 rounded-3 text-center">
+                        <i class="bi bi-cart4 display-4"></i>
+                    </div>
+                    <h6 class="fw-bold">รายละเอียดโปรเจกต์</h6>
+                    <p class="text-muted">
+                        การสร้างหน้าเว็บนำเสนอสินค้าสำหรับธุรกิจขนาดเล็ก เน้นความสวยงาม ทันสมัย รองรับทั้งการเปิดดูบนสมาร์ตโฟน แท็บเล็ต และคอมพิวเตอร์อย่างลื่นไหล
+                    </p>
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        <span class="badge bg-primary">HTML5</span>
+                        <span class="badge bg-info">CSS3</span>
+                        <span class="badge bg-secondary">Bootstrap 5</span>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow">
+                <div class="modal-header bg-soft-pink border-0">
+                    <h5 class="modal-title fw-bold text-pink" id="projectModal2Label">
+                        <i class="bi bi-phone me-2"></i>ออกแบบหน้าจอเว็บไซต์ & App
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="modal-preview-box mb-3 thumb-grad-2 text-white p-4 rounded-3 text-center">
+                        <i class="bi bi-palette display-4"></i>
+                    </div>
+                    <h6 class="fw-bold">รายละเอียดโปรเจกต์</h6>
+                    <p class="text-muted">
+                        การวิเคราะห์ความต้องการผู้ใช้ (User Research) และออกแบบ UI พร้อม Interactive Prototype บน Figma เพื่อให้เกิด User Experience ที่เป็นมิตรและน่าประทับใจ
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow">
+                <div class="modal-header bg-soft-blue border-0">
+                    <h5 class="modal-title fw-bold text-primary" id="projectModal3Label">
+                        <i class="bi bi-bar-chart me-2"></i>โครงงานธุรกิจดิจิทัลเพื่อชุมชน
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="modal-preview-box mb-3 thumb-grad-3 text-white p-4 rounded-3 text-center">
+                        <i class="bi bi-shop display-4"></i>
+                    </div>
+                    <h6 class="fw-bold">รายละเอียดโปรเจกต์</h6>
+                    <p class="text-muted">
+                        การศึกษาและนำเทคโนโลยีดิจิทัล เช่น Social Media Platform และระบบชำระเงินอิเล็กทรอนิกส์ มาช่วยสร้างมูลค่าเพิ่มและส่งเสริมการขายให้กับวิสาหกิจชุมชน
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow">
+                <div class="modal-header bg-soft-purple border-0">
+                    <h5 class="modal-title fw-bold text-purple" id="projectModal4Label">
+                        <i class="bi bi-server me-2"></i>ระบบจัดการคลังข้อมูลสินค้า
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="modal-preview-box mb-3 thumb-grad-4 text-white p-4 rounded-3 text-center">
+                        <i class="bi bi-database-check display-4"></i>
+                    </div>
+                    <h6 class="fw-bold">รายละเอียดโปรเจกต์</h6>
+                    <p class="text-muted">
+                        ระบบบันทึก จัดการ และสืบค้นข้อมูลสินค้า พร้อมฟังก์ชันสร้าง แก้ไข ลบ (CRUD) ช่วยลดความผิดพลาดในการนับสต็อก
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="projectModal5" tabindex="-1" aria-labelledby="projectModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow">
+                <div class="modal-header bg-soft-yellow border-0">
+                    <h5 class="modal-title fw-bold text-warning" id="projectModal5Label">
+                        <i class="bi bi-badge-ad me-2"></i>แคมเปญสื่อโฆษณาดิจิทัล
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="modal-preview-box mb-3 thumb-grad-5 text-white p-4 rounded-3 text-center">
+                        <i class="bi bi-megaphone display-4"></i>
+                    </div>
+                    <h6 class="fw-bold">รายละเอียดโปรเจกต์</h6>
+                    <p class="text-muted">
+                        ชิ้นงานกราฟิก ภาพแบนเนอร์ และวิดีโอสั้นประกอบการตลาดเพื่อสร้างการรับรู้แบรนด์ (Brand Awareness) และกระตุ้นยอดขาย
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="projectModal6" tabindex="-1" aria-labelledby="projectModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow">
+                <div class="modal-header bg-soft-pink border-0">
+                    <h5 class="modal-title fw-bold text-pink" id="projectModal6Label">
+                        <i class="bi bi-laptop me-2"></i>Portfolio ณิชารัตน์ สีลาลัย
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="modal-preview-box mb-3 thumb-grad-6 text-white p-4 rounded-3 text-center">
+                        <i class="bi bi-heart-pulse display-4"></i>
+                    </div>
+                    <h6 class="fw-bold">รายละเอียดโปรเจกต์</h6>
+                    <p class="text-muted">
+                        เว็บไซต์แฟ้มสะสมผลงานนี้ ออกแบบโครงสร้างด้วยหลัก Responsive Design ใช้งานง่าย สีสันน่ารัก สดใส และเป็นมิตรกับผู้ใช้งาน
+                    </p>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================================
+         SECTION 8: CONTACT (Interactive Form & Validation)
+         ============================================== -->
+    <section id="contact" class="section-padding contact-section">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <span class="section-subtitle">ส่งข้อความหรือสอบถามข้อมูล</span>
+                <h2 class="section-title">Contact Me 📩</h2>
+                <div class="title-bar"></div>
+            </div>
+
+            <div class="row g-4 align-items-stretch justify-content-center">
+                <!-- Left Info Card -->
+                <div class="col-lg-5">
+                    <div class="contact-info-card h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <span class="badge rounded-pill bg-white text-purple px-3 py-2 mb-3 fw-bold">
+                                <i class="bi bi-chat-dots-fill me-1"></i> Let's Connect!
+                            </span>
+                            <h3 class="contact-info-title text-white">พร้อมร่วมงานและเรียนรู้สิ่งใหม่ ๆ</h3>
+                            <p class="contact-info-text text-white-50">
+                                หากท่านต้องการติดต่อสอบถาม สนใจผลงาน หรือมีโอกาสร่วมงานทางด้านเทคโนโลยีธุรกิจดิจิทัล สามารถส่งข้อความผ่านแบบฟอร์มหรือช่องทางด้านล่างนี้ได้เลยค่ะ
+                            </p>
+
+                            <!-- Direct Channels -->
+                            <div class="direct-contact-list mt-4">
+                                <div class="direct-item d-flex align-items-center gap-3 mb-3">
+                                    <div class="direct-icon">
+                                        <i class="bi bi-person-circle"></i>
+                                    </div>
+                                    <div>
+                                        <small class="text-white-50">ชื่อ-นามสกุล</small>
+                                        <p class="mb-0 text-white fw-medium">ณิชารัตน์ สีลาลัย (Nicharat Seelalai)</p>
+                                    </div>
+                                </div>
+
+                                <div class="direct-item d-flex align-items-center gap-3 mb-3">
+                                    <div class="direct-icon">
+                                        <i class="bi bi-envelope-fill"></i>
+                                    </div>
+                                    <div>
+                                        <small class="text-white-50">อีเมล</small>
+                                        <p class="mb-0 text-white fw-medium">nicharat.seelalai@example.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="direct-item d-flex align-items-center gap-3 mb-3">
+                                    <div class="direct-icon">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </div>
+                                    <div>
+                                        <small class="text-white-50">ที่อยู่ / พื้นที่</small>
+                                        <p class="mb-0 text-white fw-medium">นครศรีธรรมราช / กรุงเทพมหานคร</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mini Note -->
+                        <div class="contact-note mt-4 p-3 rounded-3">
+                            <p class="mb-0 small text-white">
+                                <i class="bi bi-info-circle-fill me-1"></i> ยินดีตอบกลับทุกข้อความอย่างรวดเร็วและจริงใจค่ะ 💖
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Contact Form Card -->
+                <div class="col-lg-7">
+                    <div class="contact-form-card h-100">
+                        <!-- Custom Alert Message Container (Controlled by JS) -->
+                        <div id="contactAlertBox" class="alert-container mb-3" style="display: none;"></div>
+
+                        <form id="contactForm" novalidate>
+                            <div class="row g-3">
+                                <!-- Name Input -->
+                                <div class="col-md-6">
+                                    <label for="contactName" class="form-label fw-semibold">
+                                        ชื่อของคุณ <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group custom-input-group">
+                                        <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                        <input type="text" class="form-control" id="contactName" placeholder="เช่น คุณสมชาย หรือ Nicharat" required>
+                                    </div>
+                                </div>
+
+                                <!-- Email Input -->
+                                <div class="col-md-6">
+                                    <label for="contactEmail" class="form-label fw-semibold">
+                                        อีเมลของคุณ <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group custom-input-group">
+                                        <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                        <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com" required>
+                                    </div>
+                                </div>
+
+                                <!-- Subject Input -->
+                                <div class="col-12">
+                                    <label for="contactSubject" class="form-label fw-semibold">
+                                        หัวข้อ <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group custom-input-group">
+                                        <span class="input-group-text"><i class="bi bi-tag"></i></span>
+                                        <input type="text" class="form-control" id="contactSubject" placeholder="เช่น สอบถามผลงาน, สนใจร่วมงาน" required>
+                                    </div>
+                                </div>
+
+                                <!-- Message Textarea -->
+                                <div class="col-12">
+                                    <label for="contactMessage" class="form-label fw-semibold">
+                                        ข้อความ <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group custom-input-group">
+                                        <span class="input-group-text align-items-start pt-2"><i class="bi bi-pencil-square"></i></span>
+                                        <textarea class="form-control" id="contactMessage" rows="5" placeholder="พิมพ์ข้อความที่คุณต้องการติดต่อที่นี่..." required></textarea>
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-gradient-primary w-100 py-3 submit-btn">
+                                        <i class="bi bi-send-fill me-2"></i>ส่งข้อความ
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 9: FOOTER
+         ============================================== -->
+    <footer class="main-footer">
+        <div class="container text-center">
+            <!-- Brand & Tagline -->
+            <div class="footer-brand mb-3">
+                <span class="brand-badge me-2">
+                    <i class="bi bi-stars"></i>
+                </span>
+                <span class="footer-brand-name">Nicharat Portfolio</span>
+            </div>
+            
+            <p class="footer-tagline text-muted mb-4">
+                แฟ้มสะสมผลงานออนไลน์ สาขาเทคโนโลยีธุรกิจดิจิทัล • มุ่งมั่น พัฒนา และสร้างสรรค์
+            </p>
+
+            <!-- Social Media Icons -->
+            <div class="social-icons-wrapper d-flex justify-content-center gap-3 mb-4">
+                <a href="#" class="social-icon-btn facebook" title="Facebook" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="social-icon-btn instagram" title="Instagram" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="social-icon-btn line" title="Line" aria-label="Line">
+                    <i class="bi bi-line"></i>
+                </a>
+                <a href="#" class="social-icon-btn github" title="GitHub" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="#" class="social-icon-btn linkedin" title="LinkedIn" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p class="mb-0 text-muted">
+                    © 2026 Nicharat Seelalai. All Rights Reserved.
+                </p>
+                <small class="text-secondary">Designed with <i class="bi bi-heart-fill text-danger"></i> for Digital Business Technology</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" title="กลับสู่ด้านบน" aria-label="กลับสู่ด้านบน">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
